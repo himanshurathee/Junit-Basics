@@ -9,10 +9,11 @@
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/BankAccount.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/BasicCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CalculateMethods.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/BankAccountAssumptionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BankAccountBeforeAndAfterTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/BankAccountDITest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/BankAccountNestedTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/BankAccountOrderedExecutionTest.java" afterDir="false" />
@@ -20,9 +21,13 @@
       <change afterPath="$PROJECT_DIR$/src/test/java/BankAccountParameterizedTestTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/BankAccountRepeatedTestTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/BankAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BankAccountTimeOutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CalculateMethodMockitoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CalculateMethodsTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/TestHello.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/TestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,54 +59,54 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.BankAccountParameterizedTestTest.depositAndNameTest">
-    <configuration name="BankAccountParameterizedTestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CalculateMethodMockitoTest">
+    <configuration name="CalculateMethodMockitoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Setup-Junit" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BankAccountParameterizedTestTest" />
+      <option name="MAIN_CLASS_NAME" value="CalculateMethodMockitoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankAccountParameterizedTestTest.depositAndNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculateMethodMockitoTest.testDivide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Setup-Junit" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BankAccountParameterizedTestTest" />
-      <option name="METHOD_NAME" value="depositAndNameTest(double,java.lang.String,BankAccount)" />
+      <option name="MAIN_CLASS_NAME" value="CalculateMethodMockitoTest" />
+      <option name="METHOD_NAME" value="testDivide" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankAccountParameterizedTestTest.testDeposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculateMethodMockitoTest.testDivides" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Setup-Junit" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BankAccountParameterizedTestTest" />
-      <option name="METHOD_NAME" value="testDeposit(int,BankAccount)" />
+      <option name="MAIN_CLASS_NAME" value="CalculateMethodMockitoTest" />
+      <option name="METHOD_NAME" value="testDivides" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankAccountRepeatedTestTest.testDepositRepetitionInfo (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculateMethodsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Setup-Junit" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BankAccountRepeatedTestTest" />
-      <option name="METHOD_NAME" value="testDepositRepetitionInfo(BankAccount,org.junit.jupiter.api.RepetitionInfo)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="CalculateMethodsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankAccountRepeatedTestTest.testDepositRepetitionInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculateMethodsTest.testDivide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Setup-Junit" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BankAccountRepeatedTestTest" />
-      <option name="METHOD_NAME" value="testDepositRepetitionInfo(BankAccount)" />
+      <option name="MAIN_CLASS_NAME" value="CalculateMethodsTest" />
+      <option name="METHOD_NAME" value="testDivide" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BankAccountParameterizedTestTest.depositAndNameTest" />
-        <item itemvalue="JUnit.BankAccountParameterizedTestTest" />
-        <item itemvalue="JUnit.BankAccountParameterizedTestTest.testDeposit" />
-        <item itemvalue="JUnit.BankAccountRepeatedTestTest.testDepositRepetitionInfo (1)" />
-        <item itemvalue="JUnit.BankAccountRepeatedTestTest.testDepositRepetitionInfo" />
+        <item itemvalue="JUnit.CalculateMethodMockitoTest" />
+        <item itemvalue="JUnit.CalculateMethodMockitoTest.testDivides" />
+        <item itemvalue="JUnit.CalculateMethodsTest.testDivide" />
+        <item itemvalue="JUnit.CalculateMethodMockitoTest.testDivide" />
+        <item itemvalue="JUnit.CalculateMethodsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -138,5 +143,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
