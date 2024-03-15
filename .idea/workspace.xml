@@ -9,16 +9,20 @@
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/BankAccount.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/BasicCode.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/BankAccountAssumptionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BankAccountDITest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/BankAccountNestedTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/BankAccountOrderedExecutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BankAccountParameterResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BankAccountParameterizedTestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BankAccountRepeatedTestTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/BankAccountTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/TestHello.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/TestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +43,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2dfsp2jW5jNH4syyp4AuyKD4s0X" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,50 +57,51 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.BankAccountNestedTest">
-    <configuration name="BankAccountAssumptionsTest.testIsActive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BankAccountParameterizedTestTest.depositAndNameTest">
+    <configuration name="BankAccountParameterizedTestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Setup-Junit" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BankAccountAssumptionsTest" />
-      <option name="METHOD_NAME" value="testIsActive" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BankAccountNestedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Setup-Junit" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BankAccountNestedTest" />
+      <option name="MAIN_CLASS_NAME" value="BankAccountParameterizedTestTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankAccountOrderedExecutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankAccountParameterizedTestTest.depositAndNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Setup-Junit" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BankAccountOrderedExecutionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BankAccountTest.depositTimeout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Setup-Junit" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BankAccountTest" />
-      <option name="METHOD_NAME" value="depositTimeout" />
+      <option name="MAIN_CLASS_NAME" value="BankAccountParameterizedTestTest" />
+      <option name="METHOD_NAME" value="depositAndNameTest(double,java.lang.String,BankAccount)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankAccountTest.testWithdrawAndDepositWithoutExceptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankAccountParameterizedTestTest.testDeposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Setup-Junit" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BankAccountTest" />
-      <option name="METHOD_NAME" value="testWithdrawAndDepositWithoutExceptions" />
+      <option name="MAIN_CLASS_NAME" value="BankAccountParameterizedTestTest" />
+      <option name="METHOD_NAME" value="testDeposit(int,BankAccount)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankAccountRepeatedTestTest.testDepositRepetitionInfo (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Setup-Junit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BankAccountRepeatedTestTest" />
+      <option name="METHOD_NAME" value="testDepositRepetitionInfo(BankAccount,org.junit.jupiter.api.RepetitionInfo)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankAccountRepeatedTestTest.testDepositRepetitionInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Setup-Junit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BankAccountRepeatedTestTest" />
+      <option name="METHOD_NAME" value="testDepositRepetitionInfo(BankAccount)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BankAccountNestedTest" />
-        <item itemvalue="JUnit.BankAccountOrderedExecutionTest" />
-        <item itemvalue="JUnit.BankAccountAssumptionsTest.testIsActive" />
-        <item itemvalue="JUnit.BankAccountTest.depositTimeout" />
-        <item itemvalue="JUnit.BankAccountTest.testWithdrawAndDepositWithoutExceptions" />
+        <item itemvalue="JUnit.BankAccountParameterizedTestTest.depositAndNameTest" />
+        <item itemvalue="JUnit.BankAccountParameterizedTestTest" />
+        <item itemvalue="JUnit.BankAccountParameterizedTestTest.testDeposit" />
+        <item itemvalue="JUnit.BankAccountRepeatedTestTest.testDepositRepetitionInfo (1)" />
+        <item itemvalue="JUnit.BankAccountRepeatedTestTest.testDepositRepetitionInfo" />
       </list>
     </recent_temporary>
   </component>
